@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="32">
+    <author>TyKonKet</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Difficulties Improve</en>
+    </title>
+    <description>
+        <en>Increase the utility of the difficulties system (Easy, Normal, Hard), by adding and editing some differences between the three game modes.</en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="script.lua"/>
+    </extraSourceFiles>
+    <git>
+        <host>GitHub</host>
+        <url></url>
+    </git>
+    <website></website>
+</modDesc>

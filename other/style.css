@@ -1,0 +1,78 @@
+html {
+    background-image: url('fs17bg.png');
+    background-size: 1024px 576px;
+    background-repeat: no-repeat;
+    color: #e5e5e5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin-top: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1008px;
+}
+
+    table thead {
+        background-color: #474747;
+        font-size: 18px;
+    }
+
+    table thead tr th {
+        box-shadow: inset 0px 0px 0px 1px #2e2e2e;
+        padding: 5px 10px;
+    }
+
+    table tbody tr:nth-child(odd) { 
+        background-color:#262626; 
+    
+    }
+    
+    table tbody tr:nth-child(even) {
+        background-color:#323232;
+    }
+
+    /*table tbody tr:first-child {
+        background-color: #474747;
+    }*/
+
+    table tbody tr td {
+        box-shadow: inset 0px 0px 0px 1px #2e2e2e;
+        padding: 5px 10px 4px 10px;
+    }
+
+    table tbody tr td:not(:first-child) {
+        text-align: center;
+        word-spacing: 25px;
+        font-size: 14px;
+    }
+
+    .old {
+        color: #e81616;
+        /*text-decoration: line-through;*/
+    }
+
+    .new {
+        color: #8ed34f;
+    }
+
+    .same {
+        color: #4db0d9;
+    }
+
+    table table {
+        width: 100%;
+    }
+
+        table table thead {
+            background-color: transparent;    
+        }
+
+            table table tr th {
+                box-shadow: none;
+                padding: 0;
+                font-size: 12px;
+                font-weight: normal;
+            }
