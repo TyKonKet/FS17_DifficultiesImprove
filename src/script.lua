@@ -7,7 +7,7 @@
 
 DifficultiesImprove = {};
 DifficultiesImprove.name = "DifficultiesImprove";
-DifficultiesImprove.debug = true;
+DifficultiesImprove.debug = false;
 
 function DifficultiesImprove:print(txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9)
     if self.debug then
