@@ -29,6 +29,8 @@ g_mpLoadingScreen.loadFunction = Utils.prependedFunction(g_mpLoadingScreen.loadF
 function DifficultiesImprove:load(missionInfo, missionDynamicInfo, loadingScreen)
     self = DifficultiesImprove;
     self:print("load()");
+    g_currentMission.loadMapFinished = Utils.appendedFunction(g_currentMission.loadMapFinished, self.loadMapFinished);
+    g_currentMission.onStartMission = Utils.appendedFunction(g_currentMission.onStartMission, self.afterLoad);
     g_currentMission.missionInfo.saveToXML = Utils.appendedFunction(g_currentMission.missionInfo.saveToXML, self.saveSavegame);
 end
 g_mpLoadingScreen.loadFunction = Utils.appendedFunction(g_mpLoadingScreen.loadFunction, DifficultiesImprove.load);
