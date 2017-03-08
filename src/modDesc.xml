@@ -4,9 +4,11 @@
     <version>1.0.0.0</version>
     <title>
         <en>Difficulties Improve</en>
+        <fr>Difficultés améliorées</fr>
     </title>
     <description>
         <en>Increase the utility of the difficulties system (Easy, Normal, Hard), by adding and editing some differences between the three game modes.</en>
+        <fr>Améliore l'utilité des niveaux de difficulté (Facile, Normale, Difficile), en ajoutant et modifiant certaints paramètres des modes de jeu.</fr>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -16,6 +18,7 @@
     <translatedBy>
         <en>TyKonKet</en>
         <it>TyKonKet</it>
+        <fr>NaeJ</fr>
     </translatedBy>
     <git>
         <host>GitHub</host>
