@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="32">
-    <author>TyKonKet</author>
-    <version>1.0.0.0</version>
+<modDesc descVersion="37">
+    <author>TyKonKet (Team FSI Modding)</author>
+    <version>1.1.0</version>
     <title>
         <en>Difficulties Improve</en>
-        <fr>Difficultés améliorées</fr>
     </title>
     <description>
-        <en>Increase the utility of the difficulties system (Easy, Normal, Hard), by adding and editing some differences between the three game modes.</en>
-        <fr>Améliore l'utilité des niveaux de difficulté (Facile, Normale, Difficile), en ajoutant et modifiant certaints paramètres des modes de jeu.</fr>
+        <en>
+            <![CDATA[Increase the utility of the difficulties system (Easy, Normal, Hard), by adding and editing some differences between the three game modes.
+The main changes are listed in the table on the image, other minor value changes are:
+- Vehicles price drop
+- Livestock daily upkeep
+- Livestock dirting speed
+- Livestock birth rate
+
+Changelog 1.1.0
+- Changed new values based on game difficulty.
+- Balanced some of values to improve gameplay.
+]]>
+        </en>
+        <de>
+            <![CDATA[Erhöhen Sie den Nutzen der Schwierigkeiten (Leicht, Mittel, Schwer), indem Sie einige Unterschiede zwischen den drei Spielmodi hinzufügen und bearbeiten können.
+Die wichtigsten Änderungen sind in der Tabelle auf dem Bild aufgelistet, andere kleinere Wertänderungen sind:
+- Fahrpreis
+- Viehbestand tägliche Versorgung
+- Viehbestand Verschmutzungsgeschwindigkeit
+- Viehbestand Geburten
+
+Changelog 1.1.0
+- Neue Werte basierend auf Spielschwierigkeiten geändert.
+- Ausgewogene Werte, um das Gameplay zu verbessern.
+]]>
+        </de>
+        <fr>
+            <![CDATA[Améliore l'utilité des niveaux de difficulté (Facile, Normale, Difficile), en ajoutant et modifiant certaints paramètres des modes de jeu.
+Les principaux changements sont répertoriés dans le tableau sur l'image, d'autres changements mineurs de valeur sont:
+- Chute des prix des véhicules
+- Entretien quotidien du bétail
+- Vitesse de ratissage du bétail
+- Taux de natalité
+
+Changelog 1.1.0
+- Modification des nouvelles valeurs en fonction de la difficulté du jeu.
+- Équilibré quelques valeurs pour améliorer le gameplay.
+]]>
+        </fr>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -17,12 +53,7 @@
     </extraSourceFiles>
     <translatedBy>
         <en>TyKonKet</en>
-        <it>TyKonKet</it>
+        <de></de>
         <fr>NaeJ</fr>
     </translatedBy>
-    <git>
-        <host>GitHub</host>
-        <url>https://github.com/TyKonKet/FS17_DifficultiesImprove.git</url>
-    </git>
-    <website></website>
 </modDesc>
