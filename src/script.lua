@@ -96,8 +96,12 @@ function DifficultiesImprove:loadMap(name)
             --30
             g_currentMission.husbandries.sheep.animalDesc.dirtFillLevelPerDay = 2;
         end
-        --1
-        g_currentMission.missionInfo.buyPriceMultiplier = 0.9;
+        if not DifficultiesImprove.hasMRE then
+            --0.5
+            g_currentMission.missionInfo.buyPriceMultiplier = 0.4;
+            --2
+            g_currentMission.missionInfo.sellPriceMultiplier = 2.1;
+        end
     end
     if g_currentMission.missionInfo.difficulty == difficullties.NORMAL then
         self:print("Game difficulty is NORMAL!");
@@ -151,8 +155,12 @@ function DifficultiesImprove:loadMap(name)
             --30
             g_currentMission.husbandries.sheep.animalDesc.dirtFillLevelPerDay = 4;
         end
-        --1
-        g_currentMission.missionInfo.buyPriceMultiplier = 1.20;
+        if not DifficultiesImprove.hasMRE then
+            --0.75
+            g_currentMission.missionInfo.buyPriceMultiplier = 0.9;
+            --1.5
+            g_currentMission.missionInfo.sellPriceMultiplier = 1.6;
+        end
     end
     if g_currentMission.missionInfo.difficulty == difficullties.HARD then
         self:print("Game difficulty is HARD!");
@@ -206,8 +214,12 @@ function DifficultiesImprove:loadMap(name)
             --30
             g_currentMission.husbandries.sheep.animalDesc.dirtFillLevelPerDay = 8;
         end
-        --1
-        g_currentMission.missionInfo.buyPriceMultiplier = 1.5;
+        if not DifficultiesImprove.hasMRE then
+            --1
+            g_currentMission.missionInfo.buyPriceMultiplier = 1.2;
+            --1
+            g_currentMission.missionInfo.sellPriceMultiplier = 0.9;
+        end
     end
 end
 
