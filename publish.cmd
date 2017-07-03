@@ -36,7 +36,7 @@ IF EXIST "%mod_path_out%\%mod_name%.zip" (
 )
 PUSHD "%mod_path_src%"
 ECHO C:\Program Files\WinRAR\winrar A -r ..\out\%mod_name%.zip
-"C:\Program Files\WinRAR\winrar" A -r ..\out\%mod_name%.zip *.*
+"C:\Program Files\WinRAR\winrar" A -r -x.gitignore ..\out\%mod_name%.zip *.*
 POPD
 IF EXIST "%fs17_mod_path%\" (
     RMDIR /S /Q "%fs17_mod_path%\"
@@ -46,6 +46,6 @@ COPY "%mod_path_out%\%mod_name%.zip" "%fs17_mods_path%%mod_name%.zip"
 
 ECHO ################################### %mod_name% published ###################################
 
-CALL "C:\Program Files (x86)\Farming Simulator 2017\FarmingSimulator2017.exe"
+CALL "C:\Program Files (x86)\Farming Simulator 2017\FarmingSimulator2017.exe" -cheats -restart
 ENDLOCAL
 EXIT
