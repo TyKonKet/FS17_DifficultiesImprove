@@ -5,7 +5,7 @@
 -- @date 22/12/2016
 DifficultiesImprove = {};
 DifficultiesImprove.name = "DifficultiesImprove";
-DifficultiesImprove.debug = true;
+DifficultiesImprove.debug = false;
 
 function DifficultiesImprove:print(text, ...)
     if self.debug then

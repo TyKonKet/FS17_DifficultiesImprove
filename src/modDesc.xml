@@ -9,40 +9,40 @@
         <en>
             <![CDATA[Increase the utility of the difficulties system (Easy, Normal, Hard), by adding and editing some differences between the three game modes.
 The main changes are listed in the table on the image, other minor value changes are:
-- Vehicles price drop
-- Livestock daily upkeep
-- Livestock dirting speed
-- Livestock birth rate
+• Vehicles price drop
+• Livestock daily upkeep
+• Livestock dirting speed
+• Livestock birth rate
 
-Changelog 1.1.0
-- Changed new values based on game difficulty.
-- Balanced some of values to improve gameplay.
+Changelog 1.2.0
+- Added compatibility with Seasons
+- Added compatibility with More Realistic
 ]]>
         </en>
         <de>
             <![CDATA[Erhöhen Sie den Nutzen der Schwierigkeiten (Leicht, Mittel, Schwer), indem Sie einige Unterschiede zwischen den drei Spielmodi hinzufügen und bearbeiten können.
 Die wichtigsten Änderungen sind in der Tabelle auf dem Bild aufgelistet, andere kleinere Wertänderungen sind:
-- Fahrpreis
-- Viehbestand tägliche Versorgung
-- Viehbestand Verschmutzungsgeschwindigkeit
-- Viehbestand Geburten
+• Fahrpreis
+• Viehbestand tägliche Versorgung
+• Viehbestand Verschmutzungsgeschwindigkeit
+• Viehbestand Geburten
 
-Changelog 1.1.0
-- Neue Werte basierend auf Spielschwierigkeiten geändert.
-- Ausgewogene Werte, um das Gameplay zu verbessern.
+Changelog 1.2.0
+- Kompatibilität mit Seasons
+- Kompatibilität mit More Realistic
 ]]>
         </de>
         <fr>
             <![CDATA[Améliore l'utilité des niveaux de difficulté (Facile, Normale, Difficile), en ajoutant et modifiant certaints paramètres des modes de jeu.
 Les principaux changements sont répertoriés dans le tableau sur l'image, d'autres changements mineurs de valeur sont:
-- Chute des prix des véhicules
-- Entretien quotidien du bétail
-- Vitesse de ratissage du bétail
-- Taux de natalité
+• Chute des prix des véhicules
+• Entretien quotidien du bétail
+• Vitesse de ratissage du bétail
+• Taux de natalité
 
-Changelog 1.1.0
-- Modification des nouvelles valeurs en fonction de la difficulté du jeu.
-- Équilibré quelques valeurs pour améliorer le gameplay.
+Changelog 1.2.0
+- Ajout de la compatibilité avec Seasons
+- Ajout de la compatibilité avec More Realistic
 ]]>
         </fr>
     </description>
